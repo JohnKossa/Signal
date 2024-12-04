@@ -81,7 +81,7 @@ or alternatively
 
     fn add(int a, int b) -> int {
         return a + b;
-    }.on("onCall", onCallHandler).on("called", callHandler);
+    }.on("oncall", onCallHandler).on("called", callHandler);
 
     @fn onCallHandler(self, args) {
         print("Function ", self.name, " called with arguments ", args);
